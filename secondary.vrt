@@ -4,6 +4,14 @@
       <SrcDataSource relativeToVRT="1">rzd\secondary\Adler-Vesyoloye.geojson</SrcDataSource>
       <SrcLayer>Adler-Vesyoloye</SrcLayer>
     </OGRVRTLayer>
+    <OGRVRTLayer name="Bataisk-Salsk">
+      <SrcDataSource relativeToVRT="1">rzd\secondary\Bataisk-Salsk.geojson</SrcDataSource>
+      <SrcLayer>Bataisk-Salsk</SrcLayer>
+    </OGRVRTLayer>
+    <OGRVRTLayer name="Bryansk loop">
+      <SrcDataSource relativeToVRT="1">rzd\secondary\Bryansk loop.geojson</SrcDataSource>
+      <SrcLayer>Bryansk loop</SrcLayer>
+    </OGRVRTLayer>
     <OGRVRTLayer name="Ilinsky Pogost-Voskresensk">
       <SrcDataSource relativeToVRT="1">rzd\secondary\Ilinsky Pogost-Voskresensk.geojson</SrcDataSource>
       <SrcLayer>Ilinsky Pogost-Voskresensk</SrcLayer>

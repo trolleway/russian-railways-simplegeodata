@@ -4,17 +4,13 @@
       <SrcDataSource relativeToVRT="1">rzd\mainlines\Aleksandrov-Zilevo.geojson</SrcDataSource>
       <SrcLayer>Aleksandrov-Zilevo</SrcLayer>
     </OGRVRTLayer>
+    <OGRVRTLayer name="Armavir-Gorachiy Kluch">
+      <SrcDataSource relativeToVRT="1">rzd\mainlines\Armavir-Gorachiy Kluch.geojson</SrcDataSource>
+      <SrcLayer>Armavir-Gorachiy Kluch</SrcLayer>
+    </OGRVRTLayer>
     <OGRVRTLayer name="Bataisk-Kizilurt">
       <SrcDataSource relativeToVRT="1">rzd\mainlines\Bataisk-Kizilurt.geojson</SrcDataSource>
       <SrcLayer>Bataisk-Kizilurt</SrcLayer>
-    </OGRVRTLayer>
-    <OGRVRTLayer name="Bataisk-Salsk">
-      <SrcDataSource relativeToVRT="1">rzd\mainlines\Bataisk-Salsk.geojson</SrcDataSource>
-      <SrcLayer>Bataisk-Salsk</SrcLayer>
-    </OGRVRTLayer>
-    <OGRVRTLayer name="Bryansk loop">
-      <SrcDataSource relativeToVRT="1">rzd\mainlines\Bryansk loop.geojson</SrcDataSource>
-      <SrcLayer>Bryansk loop</SrcLayer>
     </OGRVRTLayer>
     <OGRVRTLayer name="Bryansk-Gomel">
       <SrcDataSource relativeToVRT="1">rzd\mainlines\Bryansk-Gomel.geojson</SrcDataSource>
@@ -36,9 +32,17 @@
       <SrcDataSource relativeToVRT="1">rzd\mainlines\Dmitrov-81.geojson</SrcDataSource>
       <SrcLayer>Dmitrov-81</SrcLayer>
     </OGRVRTLayer>
+    <OGRVRTLayer name="Ekateriburg-Vladivostok">
+      <SrcDataSource relativeToVRT="1">rzd\mainlines\Ekateriburg-Vladivostok.geojson</SrcDataSource>
+      <SrcLayer>Ekateriburg-Vladivostok</SrcLayer>
+    </OGRVRTLayer>
     <OGRVRTLayer name="Gryazi-Volgograd">
       <SrcDataSource relativeToVRT="1">rzd\mainlines\Gryazi-Volgograd.geojson</SrcDataSource>
       <SrcLayer>Gryazi-Volgograd</SrcLayer>
+    </OGRVRTLayer>
+    <OGRVRTLayer name="Kanalnaya-Krasnodar">
+      <SrcDataSource relativeToVRT="1">rzd\mainlines\Kanalnaya-Krasnodar.geojson</SrcDataSource>
+      <SrcLayer>Kanalnaya-Krasnodar</SrcLayer>
     </OGRVRTLayer>
     <OGRVRTLayer name="Kandalsksha-Olenegorsk">
       <SrcDataSource relativeToVRT="1">rzd\mainlines\Kandalsksha-Olenegorsk.geojson</SrcDataSource>
@@ -55,6 +59,10 @@
     <OGRVRTLayer name="Konosha-Vorkuta">
       <SrcDataSource relativeToVRT="1">rzd\mainlines\Konosha-Vorkuta.geojson</SrcDataSource>
       <SrcLayer>Konosha-Vorkuta</SrcLayer>
+    </OGRVRTLayer>
+    <OGRVRTLayer name="Kotelnich-Ekaterinburg">
+      <SrcDataSource relativeToVRT="1">rzd\mainlines\Kotelnich-Ekaterinburg.geojson</SrcDataSource>
+      <SrcLayer>Kotelnich-Ekaterinburg</SrcLayer>
     </OGRVRTLayer>
     <OGRVRTLayer name="Kushelevka-Kuznechnoye">
       <SrcDataSource relativeToVRT="1">rzd\mainlines\Kushelevka-Kuznechnoye.geojson</SrcDataSource>
@@ -140,6 +148,10 @@
       <SrcDataSource relativeToVRT="1">rzd\mainlines\Novgorod-Petrozavodsk.geojson</SrcDataSource>
       <SrcLayer>Novgorod-Petrozavodsk</SrcLayer>
     </OGRVRTLayer>
+    <OGRVRTLayer name="Novoaltaisk-Taishet">
+      <SrcDataSource relativeToVRT="1">rzd\mainlines\Novoaltaisk-Taishet.geojson</SrcDataSource>
+      <SrcLayer>Novoaltaisk-Taishet</SrcLayer>
+    </OGRVRTLayer>
     <OGRVRTLayer name="Obozerskaya - Belomorsk">
       <SrcDataSource relativeToVRT="1">rzd\mainlines\Obozerskaya - Belomorsk.geojson</SrcDataSource>
       <SrcLayer>Obozerskaya - Belomorsk</SrcLayer>
@@ -208,9 +220,17 @@
       <SrcDataSource relativeToVRT="1">rzd\mainlines\SPB-Vologda.geojson</SrcDataSource>
       <SrcLayer>SPB-Vologda</SrcLayer>
     </OGRVRTLayer>
+    <OGRVRTLayer name="Taishet-Sovgavan">
+      <SrcDataSource relativeToVRT="1">rzd\mainlines\Taishet-Sovgavan.geojson</SrcDataSource>
+      <SrcLayer>Taishet-Sovgavan</SrcLayer>
+    </OGRVRTLayer>
     <OGRVRTLayer name="Timashevsk-Novorossiysk">
       <SrcDataSource relativeToVRT="1">rzd\mainlines\Timashevsk-Novorossiysk.geojson</SrcDataSource>
       <SrcLayer>Timashevsk-Novorossiysk</SrcLayer>
+    </OGRVRTLayer>
+    <OGRVRTLayer name="Tumen - Novui Urengoi">
+      <SrcDataSource relativeToVRT="1">rzd\mainlines\Tumen - Novui Urengoi.geojson</SrcDataSource>
+      <SrcLayer>Tumen - Novui Urengoi</SrcLayer>
     </OGRVRTLayer>
     <OGRVRTLayer name="Veimarn-Luga">
       <SrcDataSource relativeToVRT="1">rzd\mainlines\Veimarn-Luga.geojson</SrcDataSource>

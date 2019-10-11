@@ -11,7 +11,7 @@
     <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="secondary20191011230605817" source="J:/temp/russian-railways-simplegeodata/secondary.vrt" name="secondary merged LineString">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" providerKey="wms" checked="Qt::Checked" id="OpenStreetMap_fr20191011230724910" source="type=xyz&amp;zmin=0&amp;zmax=19&amp;url=http://a.tile.openstreetmap.fr/osmfr/{z}/{x}/{y}.png" name="OpenStreetMap.fr">
+    <layer-tree-layer expanded="1" providerKey="wms" checked="Qt::Checked" id="OpenStreetMap_fr20191011230724910" source="crs=EPSG:3857&amp;format=&amp;type=xyz&amp;url=http://a.tile.openstreetmap.fr/osmfr/%7Bz%7D/%7Bx%7D/%7By%7D.png&amp;zmax=19&amp;zmin=0" name="OpenStreetMap.fr">
       <customproperties/>
     </layer-tree-layer>
   </layer-tree-group>
@@ -19,10 +19,10 @@
   <mapcanvas>
     <units>meters</units>
     <extent>
-      <xmin>4399532.36233573686331511</xmin>
-      <ymin>5730890.32296695839613676</ymin>
-      <xmax>6199401.64768523070961237</xmax>
-      <ymax>7838373.0448772506788373</ymax>
+      <xmin>3936599.2035385612398386</xmin>
+      <ymin>5680630.36453382112085819</ymin>
+      <xmax>6348596.18652942217886448</xmax>
+      <ymax>8504858.77285597659647465</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -80,7 +80,7 @@
         <ymax>20037508.34278924390673637</ymax>
       </extent>
       <id>OpenStreetMap_fr20191011230724910</id>
-      <datasource>type=xyz&amp;zmin=0&amp;zmax=19&amp;url=http://a.tile.openstreetmap.fr/osmfr/{z}/{x}/{y}.png</datasource>
+      <datasource>crs=EPSG:3857&amp;format=&amp;type=xyz&amp;url=http://a.tile.openstreetmap.fr/osmfr/%7Bz%7D/%7Bx%7D/%7By%7D.png&amp;zmax=19&amp;zmin=0</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -418,7 +418,7 @@
         </symbol>
       </SingleCategoryDiagramRenderer>
       <DiagramLayerSettings yPosColumn="-1" showColumn="-1" linePlacementFlags="10" placement="2" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <aliases>
         <alias field="creator" index="0" name=""/>
         <alias field="name" index="1" name=""/>
@@ -447,10 +447,10 @@
           <column width="-1" hidden="1" type="actions"/>
         </columns>
       </attributetableconfig>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath></editforminitfilepath>
+      <editforminitfilepath>.</editforminitfilepath>
       <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
 """
 QGIS forms can have a Python function that is called when the form is
@@ -788,7 +788,7 @@ def my_form_open(dialog, layer, feature):
         </symbol>
       </SingleCategoryDiagramRenderer>
       <DiagramLayerSettings yPosColumn="-1" showColumn="-1" linePlacementFlags="10" placement="2" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <aliases>
         <alias field="creator" index="0" name=""/>
         <alias field="name" index="1" name=""/>
@@ -817,10 +817,10 @@ def my_form_open(dialog, layer, feature):
           <column width="-1" hidden="1" type="actions"/>
         </columns>
       </attributetableconfig>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <editforminitcodesource>0</editforminitcodesource>
-      <editforminitfilepath></editforminitfilepath>
+      <editforminitfilepath>.</editforminitfilepath>
       <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
 """
 QGIS forms can have a Python function that is called when the form is
@@ -860,11 +860,11 @@ def my_form_open(dialog, layer, feature):
     </maplayer>
   </projectlayers>
   <properties>
-    <WMSContactPerson type="QString"></WMSContactPerson>
     <Variables>
       <variableNames type="QStringList"/>
       <variableValues type="QStringList"/>
     </Variables>
+    <WMSContactPerson type="QString"></WMSContactPerson>
     <WMSOnlineResource type="QString"></WMSOnlineResource>
     <WMSUseLayerIDs type="bool">false</WMSUseLayerIDs>
     <WMSContactOrganization type="QString"></WMSContactOrganization>
@@ -877,9 +877,9 @@ def my_form_open(dialog, layer, feature):
     </Paths>
     <WMSServiceTitle type="QString"></WMSServiceTitle>
     <WFSLayers type="QStringList"/>
+    <WMSRestrictedLayers type="QStringList"/>
     <WMSContactMail type="QString"></WMSContactMail>
     <WMSRestrictedComposers type="QStringList"/>
-    <WMSRestrictedLayers type="QStringList"/>
     <PositionPrecision>
       <DecimalPlaces type="int">2</DecimalPlaces>
       <Automatic type="bool">true</Automatic>
