@@ -28,5 +28,9 @@
       <SrcDataSource relativeToVRT="1">rzd\secondary\Tomitsy-Suoyarvi.geojson</SrcDataSource>
       <SrcLayer>Tomitsy-Suoyarvi</SrcLayer>
     </OGRVRTLayer>
+    <OGRVRTLayer name="Volgograd-obkhod">
+      <SrcDataSource relativeToVRT="1">rzd\secondary\Volgograd-obkhod.geojson</SrcDataSource>
+      <SrcLayer>Volgograd-obkhod</SrcLayer>
+    </OGRVRTLayer>
   </OGRVRTUnionLayer>
 </OGRVRTDataSource>

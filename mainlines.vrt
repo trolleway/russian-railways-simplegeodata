@@ -228,14 +228,6 @@
       <SrcDataSource relativeToVRT="1">rzd\mainlines\Volgograd-Likhaya.geojson</SrcDataSource>
       <SrcLayer>Volgograd-Likhaya</SrcLayer>
     </OGRVRTLayer>
-    <OGRVRTLayer name="Volgograd-obkhod">
-      <SrcDataSource relativeToVRT="1">rzd\mainlines\Volgograd-obkhod.geojson</SrcDataSource>
-      <SrcLayer>Volgograd-obkhod</SrcLayer>
-    </OGRVRTLayer>
-    <OGRVRTLayer name="Volgograd2 - Krasnodar">
-      <SrcDataSource relativeToVRT="1">rzd\mainlines\Volgograd2 - Krasnodar.geojson</SrcDataSource>
-      <SrcLayer>Volgograd2 - Krasnodar</SrcLayer>
-    </OGRVRTLayer>
     <OGRVRTLayer name="Vsevoloszk-Ladoga">
       <SrcDataSource relativeToVRT="1">rzd\mainlines\Vsevoloszk-Ladoga.geojson</SrcDataSource>
       <SrcLayer>Vsevoloszk-Ladoga</SrcLayer>
