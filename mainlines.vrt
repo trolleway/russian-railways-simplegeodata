@@ -1,0 +1,248 @@
+<OGRVRTDataSource>
+  <OGRVRTUnionLayer name="merged">
+    <OGRVRTLayer name="Aleksandrov-Zilevo">
+      <SrcDataSource relativeToVRT="1">rzd\mainlines\Aleksandrov-Zilevo.geojson</SrcDataSource>
+      <SrcLayer>Aleksandrov-Zilevo</SrcLayer>
+    </OGRVRTLayer>
+    <OGRVRTLayer name="Bataisk-Kizilurt">
+      <SrcDataSource relativeToVRT="1">rzd\mainlines\Bataisk-Kizilurt.geojson</SrcDataSource>
+      <SrcLayer>Bataisk-Kizilurt</SrcLayer>
+    </OGRVRTLayer>
+    <OGRVRTLayer name="Bataisk-Salsk">
+      <SrcDataSource relativeToVRT="1">rzd\mainlines\Bataisk-Salsk.geojson</SrcDataSource>
+      <SrcLayer>Bataisk-Salsk</SrcLayer>
+    </OGRVRTLayer>
+    <OGRVRTLayer name="Bryansk loop">
+      <SrcDataSource relativeToVRT="1">rzd\mainlines\Bryansk loop.geojson</SrcDataSource>
+      <SrcLayer>Bryansk loop</SrcLayer>
+    </OGRVRTLayer>
+    <OGRVRTLayer name="Bryansk-Gomel">
+      <SrcDataSource relativeToVRT="1">rzd\mainlines\Bryansk-Gomel.geojson</SrcDataSource>
+      <SrcLayer>Bryansk-Gomel</SrcLayer>
+    </OGRVRTLayer>
+    <OGRVRTLayer name="Chupa1">
+      <SrcDataSource relativeToVRT="1">rzd\mainlines\Chupa1.geojson</SrcDataSource>
+      <SrcLayer>Chupa1</SrcLayer>
+    </OGRVRTLayer>
+    <OGRVRTLayer name="Chupa2">
+      <SrcDataSource relativeToVRT="1">rzd\mainlines\Chupa2.geojson</SrcDataSource>
+      <SrcLayer>Chupa2</SrcLayer>
+    </OGRVRTLayer>
+    <OGRVRTLayer name="Danilov-Bui">
+      <SrcDataSource relativeToVRT="1">rzd\mainlines\Danilov-Bui.geojson</SrcDataSource>
+      <SrcLayer>Danilov-Bui</SrcLayer>
+    </OGRVRTLayer>
+    <OGRVRTLayer name="Dmitrov-81">
+      <SrcDataSource relativeToVRT="1">rzd\mainlines\Dmitrov-81.geojson</SrcDataSource>
+      <SrcLayer>Dmitrov-81</SrcLayer>
+    </OGRVRTLayer>
+    <OGRVRTLayer name="Gryazi-Volgograd">
+      <SrcDataSource relativeToVRT="1">rzd\mainlines\Gryazi-Volgograd.geojson</SrcDataSource>
+      <SrcLayer>Gryazi-Volgograd</SrcLayer>
+    </OGRVRTLayer>
+    <OGRVRTLayer name="Kandalsksha-Olenegorsk">
+      <SrcDataSource relativeToVRT="1">rzd\mainlines\Kandalsksha-Olenegorsk.geojson</SrcDataSource>
+      <SrcLayer>Kandalsksha-Olenegorsk</SrcLayer>
+    </OGRVRTLayer>
+    <OGRVRTLayer name="Kem-Chupa">
+      <SrcDataSource relativeToVRT="1">rzd\mainlines\Kem-Chupa.geojson</SrcDataSource>
+      <SrcLayer>Kem-Chupa</SrcLayer>
+    </OGRVRTLayer>
+    <OGRVRTLayer name="Kirov-Kotlas">
+      <SrcDataSource relativeToVRT="1">rzd\mainlines\Kirov-Kotlas.geojson</SrcDataSource>
+      <SrcLayer>Kirov-Kotlas</SrcLayer>
+    </OGRVRTLayer>
+    <OGRVRTLayer name="Konosha-Vorkuta">
+      <SrcDataSource relativeToVRT="1">rzd\mainlines\Konosha-Vorkuta.geojson</SrcDataSource>
+      <SrcLayer>Konosha-Vorkuta</SrcLayer>
+    </OGRVRTLayer>
+    <OGRVRTLayer name="Kushelevka-Kuznechnoye">
+      <SrcDataSource relativeToVRT="1">rzd\mainlines\Kushelevka-Kuznechnoye.geojson</SrcDataSource>
+      <SrcLayer>Kushelevka-Kuznechnoye</SrcLayer>
+    </OGRVRTLayer>
+    <OGRVRTLayer name="Losevo-Imatra">
+      <SrcDataSource relativeToVRT="1">rzd\mainlines\Losevo-Imatra.geojson</SrcDataSource>
+      <SrcLayer>Losevo-Imatra</SrcLayer>
+    </OGRVRTLayer>
+    <OGRVRTLayer name="Losta-Kotelnich">
+      <SrcDataSource relativeToVRT="1">rzd\mainlines\Losta-Kotelnich.geojson</SrcDataSource>
+      <SrcLayer>Losta-Kotelnich</SrcLayer>
+    </OGRVRTLayer>
+    <OGRVRTLayer name="Lubertsy-Kazan-EKB">
+      <SrcDataSource relativeToVRT="1">rzd\mainlines\Lubertsy-Kazan-EKB.geojson</SrcDataSource>
+      <SrcLayer>Lubertsy-Kazan-EKB</SrcLayer>
+    </OGRVRTLayer>
+    <OGRVRTLayer name="Mga-Narva">
+      <SrcDataSource relativeToVRT="1">rzd\mainlines\Mga-Narva.geojson</SrcDataSource>
+      <SrcLayer>Mga-Narva</SrcLayer>
+    </OGRVRTLayer>
+    <OGRVRTLayer name="Michurinsk-Saratov-Ilovlya">
+      <SrcDataSource relativeToVRT="1">rzd\mainlines\Michurinsk-Saratov-Ilovlya.geojson</SrcDataSource>
+      <SrcLayer>Michurinsk-Saratov-Ilovlya</SrcLayer>
+    </OGRVRTLayer>
+    <OGRVRTLayer name="MKZD-Left">
+      <SrcDataSource relativeToVRT="1">rzd\mainlines\MKZD-Left.geojson</SrcDataSource>
+      <SrcLayer>MKZD-Left</SrcLayer>
+    </OGRVRTLayer>
+    <OGRVRTLayer name="MKZD-right">
+      <SrcDataSource relativeToVRT="1">rzd\mainlines\MKZD-right.geojson</SrcDataSource>
+      <SrcLayer>MKZD-right</SrcLayer>
+    </OGRVRTLayer>
+    <OGRVRTLayer name="MSK-Arkhangelsk-Gorod">
+      <SrcDataSource relativeToVRT="1">rzd\mainlines\MSK-Arkhangelsk-Gorod.geojson</SrcDataSource>
+      <SrcLayer>MSK-Arkhangelsk-Gorod</SrcLayer>
+    </OGRVRTLayer>
+    <OGRVRTLayer name="MSK-Elets-Valuiki">
+      <SrcDataSource relativeToVRT="1">rzd\mainlines\MSK-Elets-Valuiki.geojson</SrcDataSource>
+      <SrcLayer>MSK-Elets-Valuiki</SrcLayer>
+    </OGRVRTLayer>
+    <OGRVRTLayer name="MSK-Hutor-Mkihailovskiy">
+      <SrcDataSource relativeToVRT="1">rzd\mainlines\MSK-Hutor-Mkihailovskiy.geojson</SrcDataSource>
+      <SrcLayer>MSK-Hutor-Mkihailovskiy</SrcLayer>
+    </OGRVRTLayer>
+    <OGRVRTLayer name="MSK-Kotelnich">
+      <SrcDataSource relativeToVRT="1">rzd\mainlines\MSK-Kotelnich.geojson</SrcDataSource>
+      <SrcLayer>MSK-Kotelnich</SrcLayer>
+    </OGRVRTLayer>
+    <OGRVRTLayer name="MSK-Kozlopan">
+      <SrcDataSource relativeToVRT="1">rzd\mainlines\MSK-Kozlopan.geojson</SrcDataSource>
+      <SrcLayer>MSK-Kozlopan</SrcLayer>
+    </OGRVRTLayer>
+    <OGRVRTLayer name="MSK-KUR-MSK-SMOL">
+      <SrcDataSource relativeToVRT="1">rzd\mainlines\MSK-KUR-MSK-SMOL.geojson</SrcDataSource>
+      <SrcLayer>MSK-KUR-MSK-SMOL</SrcLayer>
+    </OGRVRTLayer>
+    <OGRVRTLayer name="MSK-Orsha">
+      <SrcDataSource relativeToVRT="1">rzd\mainlines\MSK-Orsha.geojson</SrcDataSource>
+      <SrcLayer>MSK-Orsha</SrcLayer>
+    </OGRVRTLayer>
+    <OGRVRTLayer name="MSK-Samara">
+      <SrcDataSource relativeToVRT="1">rzd\mainlines\MSK-Samara.geojson</SrcDataSource>
+      <SrcLayer>MSK-Samara</SrcLayer>
+    </OGRVRTLayer>
+    <OGRVRTLayer name="MSK-Savelovo">
+      <SrcDataSource relativeToVRT="1">rzd\mainlines\MSK-Savelovo.geojson</SrcDataSource>
+      <SrcLayer>MSK-Savelovo</SrcLayer>
+    </OGRVRTLayer>
+    <OGRVRTLayer name="MSK-Spb-main">
+      <SrcDataSource relativeToVRT="1">rzd\mainlines\MSK-Spb-main.geojson</SrcDataSource>
+      <SrcLayer>MSK-Spb-main</SrcLayer>
+    </OGRVRTLayer>
+    <OGRVRTLayer name="MSK-Zalupa">
+      <SrcDataSource relativeToVRT="1">rzd\mainlines\MSK-Zalupa.geojson</SrcDataSource>
+      <SrcLayer>MSK-Zalupa</SrcLayer>
+    </OGRVRTLayer>
+    <OGRVRTLayer name="Mytishi-Fryazevo">
+      <SrcDataSource relativeToVRT="1">rzd\mainlines\Mytishi-Fryazevo.geojson</SrcDataSource>
+      <SrcLayer>Mytishi-Fryazevo</SrcLayer>
+    </OGRVRTLayer>
+    <OGRVRTLayer name="Novgorod-Petrozavodsk">
+      <SrcDataSource relativeToVRT="1">rzd\mainlines\Novgorod-Petrozavodsk.geojson</SrcDataSource>
+      <SrcLayer>Novgorod-Petrozavodsk</SrcLayer>
+    </OGRVRTLayer>
+    <OGRVRTLayer name="Obozerskaya - Belomorsk">
+      <SrcDataSource relativeToVRT="1">rzd\mainlines\Obozerskaya - Belomorsk.geojson</SrcDataSource>
+      <SrcLayer>Obozerskaya - Belomorsk</SrcLayer>
+    </OGRVRTLayer>
+    <OGRVRTLayer name="Obukhovo-Mga">
+      <SrcDataSource relativeToVRT="1">rzd\mainlines\Obukhovo-Mga.geojson</SrcDataSource>
+      <SrcLayer>Obukhovo-Mga</SrcLayer>
+    </OGRVRTLayer>
+    <OGRVRTLayer name="Olenegorsk-Murmansk">
+      <SrcDataSource relativeToVRT="1">rzd\mainlines\Olenegorsk-Murmansk.geojson</SrcDataSource>
+      <SrcLayer>Olenegorsk-Murmansk</SrcLayer>
+    </OGRVRTLayer>
+    <OGRVRTLayer name="Ozerelye - Bogoyavlensk">
+      <SrcDataSource relativeToVRT="1">rzd\mainlines\Ozerelye - Bogoyavlensk.geojson</SrcDataSource>
+      <SrcLayer>Ozerelye - Bogoyavlensk</SrcLayer>
+    </OGRVRTLayer>
+    <OGRVRTLayer name="Petrozavodsk-Murmansk1">
+      <SrcDataSource relativeToVRT="1">rzd\mainlines\Petrozavodsk-Murmansk1.geojson</SrcDataSource>
+      <SrcLayer>Petrozavodsk-Murmansk1</SrcLayer>
+    </OGRVRTLayer>
+    <OGRVRTLayer name="Petrozavodsk-Murmansk3">
+      <SrcDataSource relativeToVRT="1">rzd\mainlines\Petrozavodsk-Murmansk3.geojson</SrcDataSource>
+      <SrcLayer>Petrozavodsk-Murmansk3</SrcLayer>
+    </OGRVRTLayer>
+    <OGRVRTLayer name="Petrozavosk-Murmansk2">
+      <SrcDataSource relativeToVRT="1">rzd\mainlines\Petrozavosk-Murmansk2.geojson</SrcDataSource>
+      <SrcLayer>Petrozavosk-Murmansk2</SrcLayer>
+    </OGRVRTLayer>
+    <OGRVRTLayer name="Piskarevka-Dubrovka">
+      <SrcDataSource relativeToVRT="1">rzd\mainlines\Piskarevka-Dubrovka.geojson</SrcDataSource>
+      <SrcLayer>Piskarevka-Dubrovka</SrcLayer>
+    </OGRVRTLayer>
+    <OGRVRTLayer name="Piskarevka-SPB-tov">
+      <SrcDataSource relativeToVRT="1">rzd\mainlines\Piskarevka-SPB-tov.geojson</SrcDataSource>
+      <SrcLayer>Piskarevka-SPB-tov</SrcLayer>
+    </OGRVRTLayer>
+    <OGRVRTLayer name="Ryazan-Adler">
+      <SrcDataSource relativeToVRT="1">rzd\mainlines\Ryazan-Adler.geojson</SrcDataSource>
+      <SrcLayer>Ryazan-Adler</SrcLayer>
+    </OGRVRTLayer>
+    <OGRVRTLayer name="Rybnoye-Stenkovo">
+      <SrcDataSource relativeToVRT="1">rzd\mainlines\Rybnoye-Stenkovo.geojson</SrcDataSource>
+      <SrcLayer>Rybnoye-Stenkovo</SrcLayer>
+    </OGRVRTLayer>
+    <OGRVRTLayer name="Saratov-Sviyazsk">
+      <SrcDataSource relativeToVRT="1">rzd\mainlines\Saratov-Sviyazsk.geojson</SrcDataSource>
+      <SrcLayer>Saratov-Sviyazsk</SrcLayer>
+    </OGRVRTLayer>
+    <OGRVRTLayer name="SPB-Fin - Vainikala">
+      <SrcDataSource relativeToVRT="1">rzd\mainlines\SPB-Fin - Vainikala.geojson</SrcDataSource>
+      <SrcLayer>SPB-Fin - Vainikala</SrcLayer>
+    </OGRVRTLayer>
+    <OGRVRTLayer name="SPB-Oranienbaum">
+      <SrcDataSource relativeToVRT="1">rzd\mainlines\SPB-Oranienbaum.geojson</SrcDataSource>
+      <SrcLayer>SPB-Oranienbaum</SrcLayer>
+    </OGRVRTLayer>
+    <OGRVRTLayer name="SPB-Rezekne">
+      <SrcDataSource relativeToVRT="1">rzd\mainlines\SPB-Rezekne.geojson</SrcDataSource>
+      <SrcLayer>SPB-Rezekne</SrcLayer>
+    </OGRVRTLayer>
+    <OGRVRTLayer name="SPB-Vitebsk">
+      <SrcDataSource relativeToVRT="1">rzd\mainlines\SPB-Vitebsk.geojson</SrcDataSource>
+      <SrcLayer>SPB-Vitebsk</SrcLayer>
+    </OGRVRTLayer>
+    <OGRVRTLayer name="SPB-Vologda">
+      <SrcDataSource relativeToVRT="1">rzd\mainlines\SPB-Vologda.geojson</SrcDataSource>
+      <SrcLayer>SPB-Vologda</SrcLayer>
+    </OGRVRTLayer>
+    <OGRVRTLayer name="Timashevsk-Novorossiysk">
+      <SrcDataSource relativeToVRT="1">rzd\mainlines\Timashevsk-Novorossiysk.geojson</SrcDataSource>
+      <SrcLayer>Timashevsk-Novorossiysk</SrcLayer>
+    </OGRVRTLayer>
+    <OGRVRTLayer name="Veimarn-Luga">
+      <SrcDataSource relativeToVRT="1">rzd\mainlines\Veimarn-Luga.geojson</SrcDataSource>
+      <SrcLayer>Veimarn-Luga</SrcLayer>
+    </OGRVRTLayer>
+    <OGRVRTLayer name="Volgograd-Derbent">
+      <SrcDataSource relativeToVRT="1">rzd\mainlines\Volgograd-Derbent.geojson</SrcDataSource>
+      <SrcLayer>Volgograd-Derbent</SrcLayer>
+    </OGRVRTLayer>
+    <OGRVRTLayer name="Volgograd-Kanalnaya">
+      <SrcDataSource relativeToVRT="1">rzd\mainlines\Volgograd-Kanalnaya.geojson</SrcDataSource>
+      <SrcLayer>Volgograd-Kanalnaya</SrcLayer>
+    </OGRVRTLayer>
+    <OGRVRTLayer name="Volgograd-Likhaya">
+      <SrcDataSource relativeToVRT="1">rzd\mainlines\Volgograd-Likhaya.geojson</SrcDataSource>
+      <SrcLayer>Volgograd-Likhaya</SrcLayer>
+    </OGRVRTLayer>
+    <OGRVRTLayer name="Volgograd-obkhod">
+      <SrcDataSource relativeToVRT="1">rzd\mainlines\Volgograd-obkhod.geojson</SrcDataSource>
+      <SrcLayer>Volgograd-obkhod</SrcLayer>
+    </OGRVRTLayer>
+    <OGRVRTLayer name="Volgograd2 - Krasnodar">
+      <SrcDataSource relativeToVRT="1">rzd\mainlines\Volgograd2 - Krasnodar.geojson</SrcDataSource>
+      <SrcLayer>Volgograd2 - Krasnodar</SrcLayer>
+    </OGRVRTLayer>
+    <OGRVRTLayer name="Vsevoloszk-Ladoga">
+      <SrcDataSource relativeToVRT="1">rzd\mainlines\Vsevoloszk-Ladoga.geojson</SrcDataSource>
+      <SrcLayer>Vsevoloszk-Ladoga</SrcLayer>
+    </OGRVRTLayer>
+    <OGRVRTLayer name="Yaganovo-Iksha">
+      <SrcDataSource relativeToVRT="1">rzd\mainlines\Yaganovo-Iksha.geojson</SrcDataSource>
+      <SrcLayer>Yaganovo-Iksha</SrcLayer>
+    </OGRVRTLayer>
+  </OGRVRTUnionLayer>
+</OGRVRTDataSource>

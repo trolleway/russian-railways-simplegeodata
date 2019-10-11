@@ -1,0 +1,32 @@
+<OGRVRTDataSource>
+  <OGRVRTUnionLayer name="merged">
+    <OGRVRTLayer name="Adler-Vesyoloye">
+      <SrcDataSource relativeToVRT="1">rzd\secondary\Adler-Vesyoloye.geojson</SrcDataSource>
+      <SrcLayer>Adler-Vesyoloye</SrcLayer>
+    </OGRVRTLayer>
+    <OGRVRTLayer name="Ilinsky Pogost-Voskresensk">
+      <SrcDataSource relativeToVRT="1">rzd\secondary\Ilinsky Pogost-Voskresensk.geojson</SrcDataSource>
+      <SrcLayer>Ilinsky Pogost-Voskresensk</SrcLayer>
+    </OGRVRTLayer>
+    <OGRVRTLayer name="Kostomuksha-Finland">
+      <SrcDataSource relativeToVRT="1">rzd\secondary\Kostomuksha-Finland.geojson</SrcDataSource>
+      <SrcLayer>Kostomuksha-Finland</SrcLayer>
+    </OGRVRTLayer>
+    <OGRVRTLayer name="Likhoslaval-Syzran">
+      <SrcDataSource relativeToVRT="1">rzd\secondary\Likhoslaval-Syzran.geojson</SrcDataSource>
+      <SrcLayer>Likhoslaval-Syzran</SrcLayer>
+    </OGRVRTLayer>
+    <OGRVRTLayer name="Oranienbaum-Kotly">
+      <SrcDataSource relativeToVRT="1">rzd\secondary\Oranienbaum-Kotly.geojson</SrcDataSource>
+      <SrcLayer>Oranienbaum-Kotly</SrcLayer>
+    </OGRVRTLayer>
+    <OGRVRTLayer name="Savelovo-Mga">
+      <SrcDataSource relativeToVRT="1">rzd\secondary\Savelovo-Mga.geojson</SrcDataSource>
+      <SrcLayer>Savelovo-Mga</SrcLayer>
+    </OGRVRTLayer>
+    <OGRVRTLayer name="Tomitsy-Suoyarvi">
+      <SrcDataSource relativeToVRT="1">rzd\secondary\Tomitsy-Suoyarvi.geojson</SrcDataSource>
+      <SrcLayer>Tomitsy-Suoyarvi</SrcLayer>
+    </OGRVRTLayer>
+  </OGRVRTUnionLayer>
+</OGRVRTDataSource>
