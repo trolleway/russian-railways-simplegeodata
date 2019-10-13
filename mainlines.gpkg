@@ -1,9 +1,5 @@
 <OGRVRTDataSource>
   <OGRVRTUnionLayer name="merged">
-    <OGRVRTLayer name="Aleksandrov-Zilevo">
-      <SrcDataSource relativeToVRT="1">rzd\mainlines\Aleksandrov-Zilevo.geojson</SrcDataSource>
-      <SrcLayer>Aleksandrov-Zilevo</SrcLayer>
-    </OGRVRTLayer>
     <OGRVRTLayer name="Armavir-Gorachiy Kluch">
       <SrcDataSource relativeToVRT="1">rzd\mainlines\Armavir-Gorachiy Kluch.geojson</SrcDataSource>
       <SrcLayer>Armavir-Gorachiy Kluch</SrcLayer>
@@ -11,6 +7,10 @@
     <OGRVRTLayer name="Bataisk-Kizilurt">
       <SrcDataSource relativeToVRT="1">rzd\mainlines\Bataisk-Kizilurt.geojson</SrcDataSource>
       <SrcLayer>Bataisk-Kizilurt</SrcLayer>
+    </OGRVRTLayer>
+    <OGRVRTLayer name="BMO-south">
+      <SrcDataSource relativeToVRT="1">rzd\mainlines\BMO-south.geojson</SrcDataSource>
+      <SrcLayer>BMO-south</SrcLayer>
     </OGRVRTLayer>
     <OGRVRTLayer name="Bryansk-Gomel">
       <SrcDataSource relativeToVRT="1">rzd\mainlines\Bryansk-Gomel.geojson</SrcDataSource>
@@ -28,17 +28,13 @@
       <SrcDataSource relativeToVRT="1">rzd\mainlines\Danilov-Bui.geojson</SrcDataSource>
       <SrcLayer>Danilov-Bui</SrcLayer>
     </OGRVRTLayer>
-    <OGRVRTLayer name="Dmitrov-81">
-      <SrcDataSource relativeToVRT="1">rzd\mainlines\Dmitrov-81.geojson</SrcDataSource>
-      <SrcLayer>Dmitrov-81</SrcLayer>
-    </OGRVRTLayer>
     <OGRVRTLayer name="Ekateriburg-Vladivostok">
       <SrcDataSource relativeToVRT="1">rzd\mainlines\Ekateriburg-Vladivostok.geojson</SrcDataSource>
       <SrcLayer>Ekateriburg-Vladivostok</SrcLayer>
     </OGRVRTLayer>
-    <OGRVRTLayer name="Gryazi-Volgograd">
-      <SrcDataSource relativeToVRT="1">rzd\mainlines\Gryazi-Volgograd.geojson</SrcDataSource>
-      <SrcLayer>Gryazi-Volgograd</SrcLayer>
+    <OGRVRTLayer name="Ilovlya-Volgograd">
+      <SrcDataSource relativeToVRT="1">rzd\mainlines\Ilovlya-Volgograd.geojson</SrcDataSource>
+      <SrcLayer>Ilovlya-Volgograd</SrcLayer>
     </OGRVRTLayer>
     <OGRVRTLayer name="Kanalnaya-Krasnodar">
       <SrcDataSource relativeToVRT="1">rzd\mainlines\Kanalnaya-Krasnodar.geojson</SrcDataSource>
@@ -100,9 +96,9 @@
       <SrcDataSource relativeToVRT="1">rzd\mainlines\MSK-Arkhangelsk-Gorod.geojson</SrcDataSource>
       <SrcLayer>MSK-Arkhangelsk-Gorod</SrcLayer>
     </OGRVRTLayer>
-    <OGRVRTLayer name="MSK-Elets-Valuiki">
-      <SrcDataSource relativeToVRT="1">rzd\mainlines\MSK-Elets-Valuiki.geojson</SrcDataSource>
-      <SrcLayer>MSK-Elets-Valuiki</SrcLayer>
+    <OGRVRTLayer name="MSK-Bogoyavlensk">
+      <SrcDataSource relativeToVRT="1">rzd\mainlines\MSK-Bogoyavlensk.geojson</SrcDataSource>
+      <SrcLayer>MSK-Bogoyavlensk</SrcLayer>
     </OGRVRTLayer>
     <OGRVRTLayer name="MSK-Hutor-Mkihailovskiy">
       <SrcDataSource relativeToVRT="1">rzd\mainlines\MSK-Hutor-Mkihailovskiy.geojson</SrcDataSource>
@@ -128,17 +124,9 @@
       <SrcDataSource relativeToVRT="1">rzd\mainlines\MSK-Samara.geojson</SrcDataSource>
       <SrcLayer>MSK-Samara</SrcLayer>
     </OGRVRTLayer>
-    <OGRVRTLayer name="MSK-Savelovo">
-      <SrcDataSource relativeToVRT="1">rzd\mainlines\MSK-Savelovo.geojson</SrcDataSource>
-      <SrcLayer>MSK-Savelovo</SrcLayer>
-    </OGRVRTLayer>
     <OGRVRTLayer name="MSK-Spb-main">
       <SrcDataSource relativeToVRT="1">rzd\mainlines\MSK-Spb-main.geojson</SrcDataSource>
       <SrcLayer>MSK-Spb-main</SrcLayer>
-    </OGRVRTLayer>
-    <OGRVRTLayer name="MSK-Zalupa">
-      <SrcDataSource relativeToVRT="1">rzd\mainlines\MSK-Zalupa.geojson</SrcDataSource>
-      <SrcLayer>MSK-Zalupa</SrcLayer>
     </OGRVRTLayer>
     <OGRVRTLayer name="Mytishi-Fryazevo">
       <SrcDataSource relativeToVRT="1">rzd\mainlines\Mytishi-Fryazevo.geojson</SrcDataSource>
@@ -163,10 +151,6 @@
     <OGRVRTLayer name="Olenegorsk-Murmansk">
       <SrcDataSource relativeToVRT="1">rzd\mainlines\Olenegorsk-Murmansk.geojson</SrcDataSource>
       <SrcLayer>Olenegorsk-Murmansk</SrcLayer>
-    </OGRVRTLayer>
-    <OGRVRTLayer name="Ozerelye - Bogoyavlensk">
-      <SrcDataSource relativeToVRT="1">rzd\mainlines\Ozerelye - Bogoyavlensk.geojson</SrcDataSource>
-      <SrcLayer>Ozerelye - Bogoyavlensk</SrcLayer>
     </OGRVRTLayer>
     <OGRVRTLayer name="Petrozavodsk-Murmansk1">
       <SrcDataSource relativeToVRT="1">rzd\mainlines\Petrozavodsk-Murmansk1.geojson</SrcDataSource>
@@ -251,10 +235,6 @@
     <OGRVRTLayer name="Vsevoloszk-Ladoga">
       <SrcDataSource relativeToVRT="1">rzd\mainlines\Vsevoloszk-Ladoga.geojson</SrcDataSource>
       <SrcLayer>Vsevoloszk-Ladoga</SrcLayer>
-    </OGRVRTLayer>
-    <OGRVRTLayer name="Yaganovo-Iksha">
-      <SrcDataSource relativeToVRT="1">rzd\mainlines\Yaganovo-Iksha.geojson</SrcDataSource>
-      <SrcLayer>Yaganovo-Iksha</SrcLayer>
     </OGRVRTLayer>
   </OGRVRTUnionLayer>
 </OGRVRTDataSource>

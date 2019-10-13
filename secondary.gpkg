@@ -12,6 +12,14 @@
       <SrcDataSource relativeToVRT="1">rzd\secondary\Bryansk loop.geojson</SrcDataSource>
       <SrcLayer>Bryansk loop</SrcLayer>
     </OGRVRTLayer>
+    <OGRVRTLayer name="Dmitrov-81">
+      <SrcDataSource relativeToVRT="1">rzd\secondary\Dmitrov-81.geojson</SrcDataSource>
+      <SrcLayer>Dmitrov-81</SrcLayer>
+    </OGRVRTLayer>
+    <OGRVRTLayer name="Egoryevsk">
+      <SrcDataSource relativeToVRT="1">rzd\secondary\Egoryevsk.geojson</SrcDataSource>
+      <SrcLayer>Egoryevsk</SrcLayer>
+    </OGRVRTLayer>
     <OGRVRTLayer name="Ilinsky Pogost-Voskresensk">
       <SrcDataSource relativeToVRT="1">rzd\secondary\Ilinsky Pogost-Voskresensk.geojson</SrcDataSource>
       <SrcLayer>Ilinsky Pogost-Voskresensk</SrcLayer>
@@ -20,9 +28,21 @@
       <SrcDataSource relativeToVRT="1">rzd\secondary\Kostomuksha-Finland.geojson</SrcDataSource>
       <SrcLayer>Kostomuksha-Finland</SrcLayer>
     </OGRVRTLayer>
+    <OGRVRTLayer name="Kubinka-Iksha">
+      <SrcDataSource relativeToVRT="1">rzd\secondary\Kubinka-Iksha.geojson</SrcDataSource>
+      <SrcLayer>Kubinka-Iksha</SrcLayer>
+    </OGRVRTLayer>
     <OGRVRTLayer name="Likhoslaval-Syzran">
       <SrcDataSource relativeToVRT="1">rzd\secondary\Likhoslaval-Syzran.geojson</SrcDataSource>
       <SrcLayer>Likhoslaval-Syzran</SrcLayer>
+    </OGRVRTLayer>
+    <OGRVRTLayer name="MSK-Savelovo">
+      <SrcDataSource relativeToVRT="1">rzd\secondary\MSK-Savelovo.geojson</SrcDataSource>
+      <SrcLayer>MSK-Savelovo</SrcLayer>
+    </OGRVRTLayer>
+    <OGRVRTLayer name="MSK-Zalupa">
+      <SrcDataSource relativeToVRT="1">rzd\secondary\MSK-Zalupa.geojson</SrcDataSource>
+      <SrcLayer>MSK-Zalupa</SrcLayer>
     </OGRVRTLayer>
     <OGRVRTLayer name="Oranienbaum-Kotly">
       <SrcDataSource relativeToVRT="1">rzd\secondary\Oranienbaum-Kotly.geojson</SrcDataSource>
@@ -39,6 +59,10 @@
     <OGRVRTLayer name="Volgograd-obkhod">
       <SrcDataSource relativeToVRT="1">rzd\secondary\Volgograd-obkhod.geojson</SrcDataSource>
       <SrcLayer>Volgograd-obkhod</SrcLayer>
+    </OGRVRTLayer>
+    <OGRVRTLayer name="Zylevo">
+      <SrcDataSource relativeToVRT="1">rzd\secondary\Zylevo.geojson</SrcDataSource>
+      <SrcLayer>Zylevo</SrcLayer>
     </OGRVRTLayer>
   </OGRVRTUnionLayer>
 </OGRVRTDataSource>

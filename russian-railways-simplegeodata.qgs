@@ -5,10 +5,10 @@
   <evaluateDefaultValues active="0"/>
   <layer-tree-group expanded="1" checked="Qt::Checked" name="">
     <customproperties/>
-    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="mainlines20191011230604980" source="J:/temp/russian-railways-simplegeodata/mainlines.vrt" name="mainlines merged LineString">
+    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="mainlines20191011230604980" source="J:/temp/russian-railways-simplegeodata/mainlines.gpkg" name="RZD mainlines">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="secondary20191011230605817" source="J:/temp/russian-railways-simplegeodata/secondary.vrt" name="secondary merged LineString">
+    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="secondary20191011230605817" source="J:/temp/russian-railways-simplegeodata/secondary.gpkg" name="RZD secondary">
       <customproperties/>
     </layer-tree-layer>
     <layer-tree-layer expanded="1" providerKey="wms" checked="Qt::Checked" id="OpenStreetMap_fr20191011230724910" source="crs=EPSG:3857&amp;format=&amp;type=xyz&amp;url=http://a.tile.openstreetmap.fr/osmfr/%7Bz%7D/%7Bx%7D/%7By%7D.png&amp;zmax=19&amp;zmin=0" name="OpenStreetMap.fr">
@@ -126,7 +126,7 @@
         <ymax>68.97271600000000547</ymax>
       </extent>
       <id>mainlines20191011230604980</id>
-      <datasource>./mainlines.vrt</datasource>
+      <datasource>./mainlines.gpkg</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -496,7 +496,7 @@ def my_form_open(dialog, layer, feature):
         <ymax>64.60842800000000352</ymax>
       </extent>
       <id>secondary20191011230605817</id>
-      <datasource>./secondary.vrt</datasource>
+      <datasource>./secondary.gpkg</datasource>
       <keywordList>
         <value></value>
       </keywordList>
