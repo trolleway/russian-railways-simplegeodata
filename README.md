@@ -58,3 +58,9 @@ http://brouter.de/brouter-web/#map=11/48.5141/44.5283/osm-mapnik-german_style&lo
 # Contributing
 
 Доделать geojson используя brouter. Кидайте geojson пуллреквестом, или как умеете.
+
+1. Зайти на http://brouter.de/brouter-web
+2. Выбрать роутер Railway
+3. Построить маршрут по какой-либо ЖД-линии.
+4. Export GeoJSON. Замените русское название на транслит.
+5. Повторить пункты 3,4. Полученные файлы сложить в папку, и залить как pull-request, или как-нибудь ещё
