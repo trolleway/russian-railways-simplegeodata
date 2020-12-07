@@ -1,4 +1,5 @@
 import os
+import shutil
 
 try:
     os.unlink('mainlines.gpkg')
@@ -13,10 +14,17 @@ try:
 except:
     pass
 
-os.system('ogrmerge  -f GPKG -o mainlines.gpkg -single -overwrite_ds rzd\mainlines\*.geojson')
-os.system('ogrmerge  -f GPKG -o secondary.gpkg -single -overwrite_ds rzd\secondary\*.geojson')
-os.system('ogrmerge  -f GPKG -o tertiary.gpkg -single -overwrite_ds rzd\tertiary\*.geojson')
+'''
+ogrmerge on win,
+ogrmerge.py on ubuntu
+'''
+if shutil.which('ogrmerge')  is not None :
+    os.system('ogrmerge  -f GPKG -o mainlines.gpkg -single -overwrite_ds rzd\mainlines\*.geojson')
+    os.system('ogrmerge  -f GPKG -o secondary.gpkg -single -overwrite_ds rzd\secondary\*.geojson')
+    os.system('ogrmerge  -f GPKG -o tertiary.gpkg -single -overwrite_ds rzd\tertiary\*.geojson')
 
-os.system('ogrmerge.py  -f GPKG -o mainlines.gpkg -single -overwrite_ds ' + os.path.join('rzd','mainlines','*.geojson'))
-os.system('ogrmerge.py  -f GPKG -o secondary.gpkg -single -overwrite_ds '+ os.path.join('rzd','secondary','*.geojson'))
-os.system('ogrmerge.py  -f GPKG -o tertiary.gpkg -single -overwrite_ds '+ os.path.join('rzd','tertiary','*.geojson'))
+else:
+    print('call ogrmerge.py')
+    os.system('ogrmerge.py  -f GPKG -o mainlines.gpkg -single -overwrite_ds ' + os.path.join('rzd','mainlines','*.geojson'))
+    os.system('ogrmerge.py  -f GPKG -o secondary.gpkg -single -overwrite_ds '+ os.path.join('rzd','secondary','*.geojson'))
+    os.system('ogrmerge.py  -f GPKG -o tertiary.gpkg -single -overwrite_ds '+ os.path.join('rzd','tertiary','*.geojson'))
