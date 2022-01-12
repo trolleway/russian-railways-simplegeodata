@@ -11,6 +11,9 @@ try:
     os.unlink('tertiary.gpkg')
     os.unlink('tertiary.gpkg-shm')
     os.unlink('tertiary.gpkg-wal')
+    os.unlink('railways.gpkg-wal')
+    os.unlink('railways.gpkg-shm')
+    os.unlink('railways.gpkg')
 except:
     pass
 
@@ -28,3 +31,4 @@ else:
     os.system('ogrmerge.py  -f GPKG -o mainlines.gpkg -single -overwrite_ds ' + os.path.join('rzd','mainlines','*.geojson'))
     os.system('ogrmerge.py  -f GPKG -o secondary.gpkg -single -overwrite_ds '+ os.path.join('rzd','secondary','*.geojson'))
     os.system('ogrmerge.py  -f GPKG -o tertiary.gpkg -single -overwrite_ds '+ os.path.join('rzd','tertiary','*.geojson'))
+    os.system('ogrmerge.py  -f GPKG -o railways.gpkg -single -overwrite_ds mainlines.gpkg secondary.gpkg tertiary.gpkg')
